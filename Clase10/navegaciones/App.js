@@ -1,10 +1,10 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Login from '../../Trabajoenclase/Clase10/navegaciones/src/screens/Login';
-import Register from '../../Trabajoenclase/Clase10/navegaciones/src/screens/Register';
+import Login from './src/screens/Login';
+import Register from './src/screens/Register';
 
-import Homemenu from '../../Trabajoenclase/Clase10/navegaciones/src/components/HomeMenu'
-import HomeMenu from '../../Trabajoenclase/Clase10/navegaciones/src/components/HomeMenu';
+import HomeMenu from './src/components/HomeMenu'
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
